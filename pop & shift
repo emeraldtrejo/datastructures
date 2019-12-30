@@ -1,0 +1,27 @@
+function popShift(arr) {
+  let popped = arr.pop(); // change this line
+  let shifted = arr.shift(); // change this line
+  return [shifted, popped];
+}
+
+// do not change code below this line
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
+
+//example from course
+let greetings = ['whats up?', 'hello', 'see ya!'];
+
+// running tests
+// tests completed
+// console output
+
+[ 'challenge', 'complete' ]
+
+
+
+greetings.pop();
+// now equals ['whats up?', 'hello']
+
+greetings.shift();
+// now equals ['hello']
+
