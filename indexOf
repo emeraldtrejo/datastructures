@@ -1,0 +1,17 @@
+function quickCheck(arr, elem) {
+  // change code below this line
+  //we want it to return true if there is anything in the index 0 and above
+ return arr.indexOf(elem) >= 0 ? true : false;
+  // change code above this line
+}
+
+// change code here to test different cases:
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+
+let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
+
+fruits.indexOf('dates'); // returns -1
+fruits.indexOf('oranges'); // returns 2
+fruits.indexOf('pears'); // returns 1, the first index at which the element exists
+
